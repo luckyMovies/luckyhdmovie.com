@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="newproject.css">
+  <!-- Demo styles -->
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div data-hash="slide1" class="swiper-slide"><div class="movies">
+        <div class="imgg">
+
+            <img src="header.png" alt="">
+            <div class="bannertxt">
+                <h1 class="fnm">Mersal</h1>
+                </h1>
+            </div>
+        </div>
+        <img class="thumb" src="cutt.jpg" alt="">
+
+        <h3 class="hnm">Vijay Kumar</h3>
+        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+        <img class="end" src="end.png" alt="">
+        <a href="https://rumble.com/v2ig3v2-cuttputli-new-hindi-dubbed-movie.html" class="watch">Watch Now</a>
+    </div></div>
+      <div data-hash="slide2" class="swiper-slide">Slide 2</div>
+      <div data-hash="slide3" class="swiper-slide">Slide 3</div>
+      <div data-hash="slide4" class="swiper-slide"><div class="movies">
+        <div class="imgg">
+
+            <img src="header.png" alt="">
+            <div class="bannertxt">
+                <h1 class="fnm">Mersal</h1>
+                </h1>
+            </div>
+        </div>
+        <img class="thumb" src="cutt.jpg" alt="">
+
+        <h3 class="hnm">Vijay Kumar</h3>
+        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+        <img class="end" src="end.png" alt="">
+        <a href="https://rumble.com/v2ig3v2-cuttputli-new-hindi-dubbed-movie.html" class="watch">Watch Now</a>
+    </div></div>
+      <div data-hash="slide5" class="swiper-slide">Slide 5</div>
+      <div data-hash="slide6" class="swiper-slide">Slide 6</div>
+      <div data-hash="slide7" class="swiper-slide"><div class="movies">
+        <div class="imgg">
+
+            <img src="header.png" alt="">
+            <div class="bannertxt">
+                <h1 class="fnm">Mersal</h1>
+                </h1>
+            </div>
+        </div>
+        <img class="thumb" src="cutt.jpg" alt="">
+
+        <h3 class="hnm">Vijay Kumar</h3>
+        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+        <img class="end" src="end.png" alt="">
+        <a href="#" class="watch">Watch Now</a>
+    </div></div>
+      <div data-hash="slide8" class="swiper-slide">Slide 8</div>
+      <div data-hash="slide9" class="swiper-slide"><div class="movies">
+        <div class="imgg">
+
+            <img src="header.png" alt="">
+            <div class="bannertxt">
+                <h1 class="fnm">Mersal</h1>
+                </h1>
+            </div>
+        </div>
+        <img class="thumb" src="cutt.jpg" alt="">
+
+        <h3 class="hnm">Vijay Kumar</h3>
+        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+        <img class="end" src="end.png" alt="">
+        <a href="#" class="watch">Watch Now</a>
+    </div></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      loop:true,
+      speed:2000,
+      hashNavigation: {
+        watchState: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="newproject.css">
+    <link rel="stylesheet" href="splide.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="newproject.css">
+    <link rel="stylesheet" href="splide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="darkcrus.css">
+
+    <!-- Demo styles -->
+</head>
+
+<body>
+    <section>
+        <div class="hero">
+            <nav>
+                <h2 class="logo"><span>Movies</span> Cin<span>ema</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn">Login</a>
+            </nav>
+            <h2 class="welcome">Welcome to <span>HD</span> movies </h2>
+            <h4 class="s">This is best <span>website for</span> movies.Here you can <span1>watch</span1> every<br>
+                <span>HD Hindi </span>Dubbed Movie.
+            </h4>
+            <form action="" class="search">
+                <input type="text" class="serch" id="search" name="search" minlenght="2" maxlenght="25"
+                    placeholder="Search...">
+                <button><ion-icon name="search-outline" id="serrch"></ion-icon>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- movies section -->
+    <div class="mm">
+        <h1 id="latest">Latest Indian Hindi Movies Watch Here</h1>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Cuttputtli</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="cutt.jpg" alt="">
+
+                        <h3 class="hnm">Akshay Kumar</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://rumble.com/v2ig3v2-cuttputli-new-hindi-dubbed-movie.html" class="watch"target="_blank">Watch
+                            Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Amigos</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="amigos.jpg" alt="">
+
+                        <h3 class="hnm">Kalyan Ram</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8.7</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://rumble.com/v2kbn90-amigos.html" class="watch" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Hit: The 2nd Case</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="hit 2nd.jpg" alt="">
+
+                        <h3 class="hnm">Adivi Sesh</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star" class="unchecked"></ion-icon></span> -->
+                        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://rumble.com/v2h5alq-april-9-2023.html" class="watch" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">A Thursday</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="a thursday.jpg" alt="">
+
+                        <h3 class="hnm">Yami Gautam</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8.6</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://streamtape.com/v/GAyKA8x0O7H189K/A_Thursday.mp4" class="watch"target="_blank">Watch
+                            Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Bhola</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="bhola.jpg" alt="">
+
+                        <h3 class="hnm">Ajay Devgan</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://streamtape.com/v/oLeLRowWMocJ1MD/Bholaa_%28TS%29.mp4" class="watch" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Gumrah</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="gumrah.jpg" alt="">
+
+                        <h3 class="hnm">Aditya Roy</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">7.8</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://streamtape.com/v/yPdxLaqzvLI1Zbq/Gumraah%EF%BC%88TS%EF%BC%89.mp4" class="watch" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Shehzada</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="shehzada.jpg" alt="">
+
+                        <h3 class="hnm">Kartik Aaryan</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">8.3</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star-half" class="half"></ion-icon></span> -->
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://streamtape.com/v/RDvdq634JwTdRgj/Shehzada_%28TS%29.mp4" class="watch" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+                <div data-hash="slide9" class="swiper-slide">
+                    <div class="movies">
+                        <div class="imgg">
+
+                            <img src="header.png" alt="">
+                            <div class="bannertxt">
+                                <h1 class="fnm">Soriyavanshi</h1>
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="thumb" src="soriyavanshi.jpg" alt="">
+
+                        <h3 class="hnm">Akshay Kumar</h3>
+                        <h3 class="info">Langauge: &nbsp;<span class="lang">Hindi</span></h3>
+                        <h3 class="info">Rating: &nbsp;<span class="imdb">6.8</span></h3>
+
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <span><ion-icon name="star" class="unchecked"></ion-icon></span>
+                        <!-- <span><ion-icon name="star" class="unchecked"></ion-icon></span> -->
+                        <span><ion-icon name="star-half" class="half"></ion-icon></span>
+                        <span><ion-icon name="star" class="checked"></ion-icon></span>
+                        <img class="end" src="end.png" alt="">
+                        <a href="https://rumble.com/v2igqnm-soriyavanshi-full-hindi-dubbed-movie.html" class="watch" target="_blank">Watch Now</a>
+                    </div>
+
+                    <!-- <div  class="swiper-slide">Slide 6</div> -->
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- top five upcoming movies -->
+    <div class="bodyyy">
+
+        <div class="containerp">
+
+            <div><h1 class="toop">Top Five Upcoming Indian Movies</h1></div>
+
+            <input type="radio" name="slider" class="d-none" id="s1" checked>
+            <input type="radio" name="slider" class="d-none" id="s2">
+            <input type="radio" name="slider" class="d-none" id="s3">
+            <input type="radio" name="slider" class="d-none" id="s4">
+            <input type="radio" name="slider" class="d-none" id="s5">
+
+            <div class="cards">
+                <label for="s1" id="slide1">
+                    <div class="card">
+                        <div class="image">
+                            <img src="adipurush.jpg" alt="">
+                            <div class="dots">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <span class="name">ADIPURUSH</span>
+                            <span class="lorem">
+                                <h3>Actor:<span class="hyt">Prabhas</span></h3>
+                                <h3>Date:&nbsp; <span class="hyt">15-June-2023</span></h3>
+                            </span>
+                        </div>
+                        <a href="/contact" class="btn-contact">Details</a>
+                    </div>
+                </label>
+
+                <label for="s2" id="slide2">
+                    <div class="card">
+                        <div class="image">
+                            <img src="aazam.jpg" alt="">
+                            <div class="dots">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <span class="name">AAZAM</span>
+                            <span class="lorem">
+                                <h3>Actor:<span class="hyt">Jimmy Shergill</span></h3>
+                                <h3>Date:&nbsp; <span class="hyt">18-May-2023</span></h3>
+                            </span>
+                        </div>
+                        <a href="/contact" class="btn-contact">Details</a>
+                        <div class="socials">
+                        </div>
+                    </div>
+                </label>
+
+                <label for="s3" id="slide3">
+                    <div class="card">
+                        <div class="image">
+                            <img src="maidan.jpg" alt="">
+                            <div class="dots">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <span class="name">MAIDAAN</span>
+                            <span class="lorem">
+                                <h3>Actor:<span class="hyt">Ajay Devgn</span></h3>
+                                <h3>Date:&nbsp; <span class="hyt">22-June-2023</span></h3>
+                            </span>
+                        </div>
+                        <a href="/contact" class="btn-contact">Details</a>
+                        <div class="socials">
+                        </div>
+                    </div>
+                </label>
+
+                <label for="s4" id="slide4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="pippa.jpg" alt="">
+                            <div class="dots">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <span class="name">PIPPA</span>
+                            <span class="lorem">
+                                <h3>Actor:<span class="hyt">Ishaan Khattar</span></h3>
+                                <h3>Date:&nbsp; <span class="hyt">01-June-2023</span></h3>
+                            </span>
+                        </div>
+                        <a href="/contact" class="btn-contact">Details</a>
+                        <div class="socials">
+                        </div>
+                    </div>
+                </label>
+
+                <label for="s5" id="slide5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="medal.jpg" alt="">
+                            <div class="dots">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <span class="name">MEDAL</span>
+                            <span class="lorem">
+                                <h3>Actor:<span class="hyt">Jayy Randhawa</span></h3>
+                                <h3>Date:&nbsp; <span class="hyt">30-May-2023</span></h3>
+                            </span>
+                        </div>
+                        <a href="/contact" class="btn-contact">Details</a>
+                        <div class="socials">
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="actor">
+        <h1 class="he">Some Popular Indian Male Actors</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="mactor">
+                    <img class="acpht" src="vj.jpg" alt="">
+                    <h1>Vijay Thalaphty</h1>
+                    <img class="imgs" src="end.png" alt="">
+                    <details>
+                        <h2>Age: 26 years</h2>
+                        <h2>Country: Indian</h2>
+                        <h2>Religion: Hindu</h2>
+                    </details>
+                    <a class="pmo" href="#">Movies</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mactor">
+                    <img class="acpht" src="rcc.jpg" alt="">
+                    <h1>Ram Charan</h1>
+                    <img class="imgs" src="end.png" alt="">
+                    <details>
+                        <h2>Age: 26 years</h2>
+                        <h2>Country: Indian</h2>
+                        <h2>Religion: Hindu</h2>
+                    </details>
+                    <a class="pmo" href="#">Movies</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mactor">
+                    <img class="acpht" src="rpp.jpg" alt="">
+                    <h1>Ram Pothineni</h1>
+                    <img class="imgs" src="end.png" alt="">
+                    <details>
+                        <h2>Age: 26 years</h2>
+                        <h2>Country: Indian</h2>
+                        <h2>Religion: Hindu</h2>
+                    </details>
+                    <a class="pmo" href="#">Movies</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mactor">
+                    <img class="acpht" src="ajj.jpg" alt="">
+                    <h1>Allu Arjun</h1>
+                    <img class="imgs" src="end.png" alt="">
+                    <details>
+                        <h2>Age: 26 years</h2>
+                        <h2>Country: Indian</h2>
+                        <h2>Religion: Hindu</h2>
+                    </details>
+                    <a class="pmo" href="#">Movies</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mactor">
+                    <img class="acpht" src="jrr.jpg" alt="">
+                    <h1>Jr. NTR</h1>
+                    <img class="imgs" src="end.png" alt="">
+                    <details>
+                        <h2>Age: 26 years</h2>
+                        <h2>Country: Indian</h2>
+                        <h2>Religion: Hindu</h2>
+                    </details>
+                    <a class="pmo" href="#">Movies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- splider slider -->
+    <div class="bodyy">
+        <h1 class="fe">Some Popular Indian Female Actress</h1>
+        <div class="splide">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="ka.jpg" alt="">
+                            <h1>Kajal Aggrewal</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="rask.jpg" alt="">
+                            <h1>Rashi Khanna</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="tnb.jpg" alt="">
+                            <h1>Tamanna Bhatia</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="ks.jpg" alt="">
+                            <h1>Krithi Shetty</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="rsh.jpg" alt="">
+                            <h1>Rashmika Mandhana</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="rak.jpg" alt="">
+                            <h1>Rakul Preet</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="pj.jpg" alt="">
+                            <h1>Pooja Hedge</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="krt.jpg" alt="">
+                            <h1>Keerthy Suresh</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="mactor">
+                            <img class="acph" src="sh.jpg" alt="">
+                            <h1>Shruti Haasan</h1>
+                            <img class="imgs" src="end.png" alt="">
+                            <details>
+                                <h2>Age: 26 years</h2>
+                                <h2>Country: Indian</h2>
+                                <h2>Religion: Hindu</h2>
+                            </details>
+                            <a class="pmo" href="#">Movies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            speed: 2000,
+            hashNavigation: {
+                watchState: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })</script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>var splide = new Splide('.splide', {
+            perPage: 4,
+            perMove: 1,
+            padding: '3rem',
+            gap: '2rem',
+            type: 'loop',
+            snap: true,
+            drag: 'freely',
+            breakpoints: {
+                640: {
+                    perPage: 2,
+                    gap: '.7rem',
+                    padding: '1.5rem',
+                },
+                480: {
+                    perPage: 1,
+                    gap: '.7rem',
+                    padding: '1.5rem',
+                },
+            },
+        });
+
+        splide.mount();
+    </script>
+</body>
+
+</html>

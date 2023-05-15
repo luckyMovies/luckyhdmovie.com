@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(tt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    font-weight: bold;
+    color: white;
+}
+.manu{
+    background-color: orange;
+    text-align: center;
+    border-radius: 15px;
+}
+.manu ul li{
+    display: inline-flex;
+    padding: 8px 40px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.manu ul li a{
+    text-decoration: none;
+    color: White;
+}
+.active,.manu ul li:hover{
+    background-color: green;
+    border-radius:15px;
+    /* position: relative; */
+}
+.manu ul li:hover{
+    background-color: black;
+    border-radius:15px;
+}
+.subm2{
+    display: none;
+}
+.manu ul li:hover .subm2{
+    display: block;
+    position:absolute;
+    margin-top: 40px;
+    margin-left: -30px;
+    background-color:red;
+    border-radius:15px;
+}
+
+.manu ul li:hover .subm2 li {
+display: block;
+margin: 8px;
+border-radius: 15px;
+border-bottom: dotted;
+border-top: dotted;
+text-align: center;
+}
+.manu ul li:hover .subm2 li :last-child{
+    border-bottom: none;
+
+
+
+
+
+    border-top: none;}
+.subm3{
+    display: none;
+}

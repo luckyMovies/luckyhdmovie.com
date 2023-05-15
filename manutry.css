@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+.manubar ul{
+    background-color:white;
+    text-align: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.manubar ul li{
+padding: 6px 40px;
+/* margin: 15px; */
+display: inline-flex;
+background-color:yellow;
+border-radius: 8px;
+}
+.manubar ul li a{
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
+}
+.manubar ul li:hover{
+    background-color: red;
+    border-radius: 8px;
+}
+.active,.manubar li:hover{
+    background-color:green;
+    border-radius: 8px;
+}
+.manubar ul li a:hover{
+    color: white;
+}
+.manu2{
+    display: none;
+   
+}
+.manubar ul li:hover .manu2 {
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -45px;
+    background-color: orange;
+    /* background-color:red; */
+    border-radius:15px;
+    
+}
+.manubar ul li:hover .manu2 li{
+    display: block;
+    background-color: orange;
+    border-radius: 8px;
+    
+
+}
+.manubar ul li:hover .manu2 li:hover{
+    background-color: blue;
+}
+.manu3{
+    display: none;
+    background-color: black;
+}
+.ttt:hover .manu3{
+    position:absolute;
+    display: block;
+    margin-left: 150px;
+    margin-top: -10px;
+    background-color:transparent;
+}
+.ttt{
+    background-color: black;
+}
+.fa-solid fa-greater-than {
+    float: right;
+}
